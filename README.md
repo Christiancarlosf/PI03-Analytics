@@ -2,6 +2,8 @@
 
 ![image](https://help.ftx.com/hc/article_attachments/4409994973844/mceclip0.png)
 
+## Link de Streamlit https://christiancarlosf-pi03-analytics-main-c5ngkm.streamlitapp.com/
+
 ## Introducción
 Bienvenidos al útlimo proyecto individual de la academia para Christian Fajardo. En esta ocasión, deberán aprender o repasar los conocimientos básicos del ecosistema de criptomonedas para luego realizar una DEMO en vivo del dashboard como entregable.
 
