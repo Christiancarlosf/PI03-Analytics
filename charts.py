@@ -19,6 +19,7 @@ def data(coin):
 #Instanciamos para generar los graficos de velas juntos
 def get_candlestick_plot(
     df: pd.DataFrame,
+    ma1: int,
     ticker: str):
 
     fig = make_subplots(
@@ -39,6 +40,11 @@ def get_candlestick_plot(
             close = df['close'],
             name = 'Candlestick chart'
         ),
+        row = 1,
+        col = 1,
+    )
+    fig.add_trace(
+        go.Line(x = df['date'], y = df[f'{ma1}_ma'], name = f'{ma1} SMA'),
         row = 1,
         col = 1,
     )
